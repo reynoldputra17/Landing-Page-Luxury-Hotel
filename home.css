@@ -1,0 +1,323 @@
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}   
+
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 200px;  
+    background-color: transparent;
+    color: white;
+}
+
+.logo-header{
+    width: 200px;
+    background-color: #E0B973;
+    display: block;
+    top: 0;
+    padding: 30px 20px 20px;
+    border-radius: 0 0 30px 30px;
+                                          
+}
+
+.logo-header h1{
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Adobe Garamond Pro Bold', sans-serif;
+    filter: brightness(0.1);                                
+}
+
+.logo-header h2{
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Adobe Garamond Pro Bold', sans-serif;
+}
+
+
+.section-header{
+    background-image: url("images/section-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 720px;
+}
+
+header ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    font-size: 18px;
+    width: 80%;
+}
+
+header a{
+    padding: 0 45px;
+    font-weight: 400px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.section1{
+    display: block;
+    color: white;
+    padding: 120px 200px;
+}
+
+.webtitle p{
+    font-size: 37px;
+    width: 400px;
+}
+
+.webtitle h1{
+    font-size: 72px;
+    width: 700px;
+    font-family: 'Adobe Garamond Pro Bold', sans-serif;
+                                                
+}
+
+.webtitle h2{
+    font-size: 32px;
+    width: 700px;
+    font-family: 'Adobe Garamond Pro Bold', sans-serif;
+    letter-spacing: 10px;                             
+}
+
+.par-title{
+    padding-top: 10px;
+    font: 25px;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.book-btn{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.book-btn button{
+    padding: 20px;
+    width: 200px;
+    background-color: #E0B973;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.book-logo{
+    height: 20px;
+    width: auto;
+    margin-right: 10px;
+}
+
+
+.scroll-text{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scroll-text h2{
+    font-size: 18px;
+}
+
+.scroll-text img{
+    width: 30px;
+    height: auto;
+    margin-top: 10px;
+}   
+
+
+.text1{
+    padding: 80px 200px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.content-container{
+    padding: 50px 200px;
+    display: flex;
+}
+
+.content-text{
+    width: 50%;
+    padding: 20px 80px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.text-container{
+    border-left: 2px solid black;
+    padding-left: 30px;
+}
+
+.content-text h1{
+    margin-bottom: 20px;
+    font-family: 'Adobe Garamond Pro Bold', sans-serif;
+}
+
+.content-desc{
+    line-height: 120%;
+}
+
+.content-text button{
+    margin-top: 30px;
+    background-color: #E0B973;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.content-container img{
+    width: 50%;
+    height: auto;
+}
+
+
+.section3{
+    padding: 20px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section3 h1{
+    font-family: 'Adobe Garamond Pro Bold', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.par-1{
+    margin: 10px 0;
+    font-weight: 800;
+}
+
+.arrow-container{
+    margin: 20px;
+}
+
+.arrow-container button{
+    height: 35px;
+    width: 35px;
+    background-color: #E0B973;
+    border: none;
+    border-radius: 5px;
+}
+
+.arrow img{
+    width: auto;
+    height: 15px;
+}
+
+
+.section-footer{
+    display: flex;
+    padding: 20px 200px;
+    background-color: #14274A;
+    color: white;
+    margin-top: 30px;
+}
+
+.address {
+    width: 25%;
+    padding-top: 15px;
+}
+
+.logo-footer h1{
+    font-family: 'Adobe Garamond Pro Bold', sans-serif;
+    font-size: 24px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.logo-footer h2{
+    font-family: 'Adobe Garamond Pro Bold', sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.address p{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.links{
+    width: 25%;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links ul{
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.links li{
+    margin: 15px;
+    
+}
+
+.social-media{
+    width: 25%;
+    padding: 15px 0;
+}
+
+.sm-container{
+    display: flex;
+    padding: 5px 0;
+    justify-content: center;
+}
+
+.social-media img{
+    height: 15px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.social-media p{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.subs{
+    width: 25%;
+    padding-top: 15px;
+}
+
+.subs p{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.subs input{
+    padding: 5px;
+}
